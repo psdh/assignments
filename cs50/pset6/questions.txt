@@ -1,0 +1,11 @@
+0.  An Artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust
+1.  getrusage() returns resource usage measures for who which can be done for RUSAGE_SELF, RUSAGE_CHILDREN and RUSAGE_THREAD
+2.  16
+3.  
+4.  The for loop basically reads character by character, then checks whether it is an alphabet or an apostrophe and then adds it to the current word and then removes the extra characters if the word is greater than 45 chars, the input does not allow words with numbers so if the word has a number then it does not consider it as a word .finally it checks adds \0 to end of the word and increases the counter 
+5.  We have to read character by character checking for spaces and terminating words and also for checking that a word cannot and should not have a digit within it ... which cannot be achieved by using fscanf()
+6.  TODO
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO
