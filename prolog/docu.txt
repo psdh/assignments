@@ -1,0 +1,41 @@
+          			ASSIGNMENT 1
+					- Prabhjyot Singh Sodhi (2013A7PS151P)
+					- Shivin Srivastava	(2013A7PS073P)
+*********************************************************************************
+
+PREDICATES:
+
+1) employee(<Name>,<ID No.>,<Age>,<Pay>,<Experience>)
+
+a) Name is a String.
+b) ID No. is a number.
+c) Age is a number(years).
+d) Pay is a number.
+e) Experience is a number(months). 
+
+*********************************************************************************
+
+FUNCTIONS:
+
+1) age_bracket(<minimum age>, <maximum age>, <employee()/3>)
+
+a) minimum age is a number.
+b) maximum age is a number.
+c) employee predicate takes in 3 terms.
+
+Description:It returns the details of employees whose ages satisfy the given criterias and returns their Name, ID No., Age.
+
+
+2) choose(<minimum experience>, <maximun pay>,<employee()/5>)
+
+a) minimum experience is the number of months.
+b) maximum pay is a number.
+
+It returns the details of all the employees whose Pay is below the specified pay and whose experience is greater than the minimum experience.
+
+3) assign_project(<project([[<Number of employees required>,<minimum experience of employees>,<maximum experience required>]])>,<number_of_projects)).
+
+a) Input the assign_project with a list of projects(which are themselves lists with terms no. of employees, min. experience, max pay) and the number of projects.
+
+There are two predicates element_add(it gives the kth element of a list) and select(which gives the required number of employees who fulfill the required conditions) 
+*********************************************************************************

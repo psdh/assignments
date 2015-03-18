@@ -1,0 +1,56 @@
+List of Example Queries :-
+
+1-    house(X).
+O/P:  X = senate ;
+      X = house_of_representatives.
+
+2-    compensation_for_services(X).
+O/P:  X = senators ;
+      X = representatives.
+
+3-    revenues_raising_bills(X).
+O/P:  X = house_of_representatives.  
+
+4-    compensation_paid_out_of(X).
+O/P:  X = treasury.
+
+5-    days_sanctioned_to_president.
+O/P:  10 days excluding sundays.
+
+6-    duties_of_congress(X).
+O/P:  X = 'To borrow money on credit of the United States' ;
+	  X = 'To regulate commerce with foreign nations, and amoung the several states, and with Indian tribes' ;
+	  X = 'To establish an uniform Rule of Naturalization, and uniform Laws on the subject of Bankruptcies throughout the United States' .
+	<enter ';' for more duties>
+
+7-    use_of_journal.
+O/P:  In each of the Houses :
+	  To Record the objections of President(if any) regarding a bill 
+      To Record the names of people participating in the poll along with their responses
+
+8-    privledge_from_arrest(felony, session).
+O/P:  false.
+
+9-    can_be_questioned(speech,senate).
+O/P:  true.
+
+10-    At the intial voting in the two houses.
+	  check_bill(61,73).
+O/P:  true.
+	  check_bill(61,73,'passed').
+	  true.
+	  Exp: if the answer is 'passed' or if the number of days is more than 10 then the president is believed to have approved and the bill becomes a law.
+
+
+11-   Another example for another case in the check_bill query:- 
+O/P:  check_bill(61,73).
+	  true.
+	  check_bill(61,73,'not_passed').
+	  false.
+	  
+	  Exp : if the president does not approve of the bill then he may not sign it in which case the bill proceeds to the next round of votes.
+	  
+	  check_bill(61,73, 82,70).
+	  true.
+	  Exp : Now, Since after the second round of voting, the bill comes out with two-thirds majority, hence the bill becomes a law.
+

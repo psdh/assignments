@@ -1,0 +1,68 @@
+
+1)
+assign_projects([[3,9,60000],[1,13,50000]],2).
+Project :
+Shyam: 922433
+Ram: 121083
+Sodhi: 432023
+Project :
+Tyson: 322653
+
+2)
+
+ assign_projects([[4,13,50000]],1).
+ Project :
+ Tyson: 322653
+ Ash: 543563
+ Nikhil: 135643
+ Abhishek: 973242
+
+ 3)
+
+
+4)
+choose(14,43000,employee(A,B,C,D,E)).
+A = 'Tyson',
+B = '322653' ;
+A = 'Ash',
+B = '543563' ;
+A = 'Nikhil',
+B = '135643' ;
+A = 'Abhishek',
+B = '973242' ;
+A = 'Reena',
+B = '783562' ;
+A = 'Ankush',
+B = '123321' ;
+A = 'Sherki',
+B = '172322' ;
+A = 'Rishabh',
+B = '26341'.
+
+
+5)
+ age_bracket(19,25,employee(A,B,C,D,E)).
+ A = 'Ramesh',
+ B = '322003',
+ C = 20 ;
+ A = 'Shyam',
+ B = '922433',
+ C = 21 ;
+ A = 'Ram',
+ B = '121083',
+ C = 19 ;
+ A = 'Shivin',
+ B = '182043',
+ C = 23 ;
+ A = 'Reena',
+ B = '783562',
+ C = 25 ;
+ A = 'Ankush',
+ B = '123321',
+ C = 23 ;
+ A = 'Kshitij',
+ B = '323532',
+ C = 19 ;
+ false.
+
+

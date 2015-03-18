@@ -1,0 +1,6 @@
+sum(1,1).
+sum(N,S) :-
+N>0,
+N1 is N-1,
+sum(N1,S1),
+S is S1 + 1/N1 .
